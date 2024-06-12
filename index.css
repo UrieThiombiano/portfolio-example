@@ -415,11 +415,24 @@ color:var(--second-gb-color);
    }
    .home-content h1{
     font-size: 5rem;
-   }
-   .home-img img{
+   }.home-img img {
     width: 70vw;
-    margin-top:4rem;
-   }
+    margin-top: 4rem;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
    .services h2{
     margin-bottom: 3rem;
    }
