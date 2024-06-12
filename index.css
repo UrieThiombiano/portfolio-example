@@ -222,8 +222,6 @@ gap:2rem;
 }
 .portfolio h2{
     margin-bottom: 4rem;
-    font-size: 3.2rem;
-    text-align: center;
 }
 .portfolio-container{
     display: grid;
